@@ -1,0 +1,215 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manikant's Grand Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .hero {
+      background: linear-gradient(to right, #004e92, #000428);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .btn-primary, .btn-outline-light {
+      margin: 5px;
+    }
+    .card {
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .footer {
+      background: #000428;
+      color: white;
+      padding: 20px 0;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: white;
+      font-size: 1.5rem;
+    }
+    .hobby-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .hobby-card:hover {
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container flex items-center justify-between">
+    <a class="navbar-brand flex items-center gap-3" href="#">
+      <img src=" https://media.licdn.com/dms/image/v2/D5603AQHfZCSpMbGrTQ/profile-displayphoto-shrink_100_100/B56ZcBakgHH4AU-/0/1748075433165?e=1756944000&v=beta&t=afaBHJLv_0w5MYvUKXrgyg070Q9AWI3xpuo0LePWBBY" alt="Profile" class="rounded-full border-2 border-white shadow-md" width="40" height="40" class="rounded-circle">
+       
+    </a>
+  </div>
+</nav>
+
+      <a class="navbar-brand" >SHRAMAJEEVI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="mailto:bankollermanikanta@gmail.com">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#websites">My Websites</a></li>
+           <li class="nav-item"><a class="nav-link" href=" new.html">Involvement</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I’m Manikant Mahesh Bankoller, Future Java full stack developer</p>
+      <a href="#websites" class="btn btn-primary">View Websites</a>
+      <a href="mailto:bankollermanikanta@gmail.com" class="btn btn-outline-light">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <p class="lead text-center">I am a Engineering student with a foundation in Java, web development. I love to create websites and solve  problems .</p>
+    </div>
+  </section>
+ 
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-3 mb-3"><i class="fab fa-java fa-2x"></i><p>Java</p></div>
+        <div class="col-md-3 mb-3"><i class="fab fa-html5 fa-2x"></i><p>HTML/CSS</p></div>
+        <div class="col-md-3 mb-3"><i class="fab fa-js fa-2x"></i><p>JavaScript (Intermediate)</p></div>
+        <div class="col-md-3 mb-3"><i class="fas fa-vial fa-2x"></i><p>JUnit 5 (Beginner)</p></div>
+        <div class="col-md-3 mb-3"><i class="fab fa-git-alt fa-2x"></i><p>Git & GitHub</p></div>
+        <div class="col-md-3 mb-3"><i class="fas fa-database fa-2x"></i><p>SQL</p></div>
+        <div class="col-md-3 mb-3"><i class="fab fa-node-js fa-2x"></i><p>Node.js & Express.js (Beginner)</p></div>
+        <div class="col-md-3 mb-3"><i class="fab fa-python fa-2x"></i><p>Core Python</p></div>
+        <div class="col-md-3 mb-3"><i class="fas fa-code fa-2x"></i><p>Core C Language</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies Section -->
+  <section id="hobbies" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Hobbies</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-3 mb-3">
+          <div class="hobby-card text-center">
+            <div class="fs-2">🏐</div>
+            <h5 class="mt-2">Volleyball</h5>
+            <p>Energetic team play and strategy on court.</p>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="hobby-card text-center">
+            <div class="fs-2">🎨</div>
+            <h5 class="mt-2">Drawing</h5>
+            <p>Creative expression through sketching and art.</p>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="hobby-card text-center">
+            <div class="fs-2">🎬</div>
+            <h5 class="mt-2">Movies</h5>
+            <p>Watching inspiring and entertaining films.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Websites Section -->
+  <section id="websites" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">My Websites</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+<div class="col"><a href="https://shramajeevi.github.io/Rock-Paper-Scissors/" target="_blank" class="btn btn-outline-dark w-100">RPS Game</a></div>
+<div class="col"><a href="https://shramajeevi.github.io/uploading/" target="_blank" class="btn btn-outline-dark w-100">Text to Speech Converter</a></div>
+        <div class="col"><a href="https://shramajeevi.github.io/drawing/" target="_blank" class="btn btn-outline-dark w-100">My Drawings</a></div>
+        <div class="col"><a href="https://shramajeevi.github.io/SSIT-College/" target="_blank" class="btn btn-outline-dark w-100">SSIT College</a></div>
+         
+        <div class="col"><a href="https://shramajeevi.github.io/Emergency-call/" target="_blank" class="btn btn-outline-dark w-100">Emergency Call</a></div>
+         
+         
+       
+        <div class="col"><a href="https://shramajeevi.github.io/materials/" target="_blank" class="btn btn-outline-dark w-100">Materials</a></div>
+        <div class="col"><a href="https://shramajeevi.github.io/tourism/" target="_blank" class="btn btn-outline-dark w-100">Tourism</a></div>
+        <div class="col"><a href="https://shramajeevi.github.io/JAVASCRIPT/" target="_blank" class="btn btn-outline-dark w-100">JavaScript Demos</a></div>
+         
+        <div class="col"><a href="https://shramajeevi.github.io/https---github.com-SHRAMAJEEVI-MANIKANT-M.B/" target="_blank" class="btn btn-outline-dark w-100">Simple One</a></div>
+         <div class="col"><a href="https://shramajeevi.github.io/web/" target="_blank" class="btn btn-outline-dark w-100">Web</a></div>
+        <div class="col"><a href="https://shramajeevi.github.io/CEO-S/" target="_blank" class="btn btn-outline-dark w-100">CEO'S</a></div>
+         <div class="col"><a href="https://shramajeevi.github.io/comingSoon/" target="_blank" class="btn btn-outline-dark w-100">Coming Soon</a></div>
+      </div>
+    </div>
+  </section>
+<!-- 
+  <section id="involvement" class="py-5 bg-light">
+<div class="container"> 
+<a href="new.html" style="text-decoration: none;"><h2 class="text-center mb-4" style="color: purple;">Involvement</h2></a>
+
+</div>
+  </section> -->
+
+
+
+
+
+
+  <!-- Contact Section -->
+  <!-- <section id="contact" class="py-5 bg-light">
+    <div class="container">
+   
+       <a href="mailto:bankollermanikanta@gmail.com" style="text-decoration: none;"> <h2 class="text-center mb-4" style="color: purple;">Contact Me</h2> </a>
+    </div>
+  </section> -->
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; Arise, awake and stop not till the goal is reached...</p>
+      <div class="social-icons">
+        <a href="https://github.com/SHRAMAJEEVI"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/manikant-mahesh-bankoller-490b8b294/"><i class="fab fa-linkedin"></i></a>
+         
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
